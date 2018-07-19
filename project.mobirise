@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Mirza Secerbegovic",
-    "currentPage": "page1.html",
+    "currentPage": "privacy.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -272,7 +272,7 @@
         }
       ]
     },
-    "page1.html": {
+    "privacy.html": {
       "settings": {
         "title": "privacy",
         "order": 1
