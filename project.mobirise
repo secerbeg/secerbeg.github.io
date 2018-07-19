@@ -13,7 +13,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 22,
+    "uniqCompNum": 23,
     "versionPublish": "4.8.1",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
@@ -257,47 +257,18 @@
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#c8eeec",
+            "bgColor": "#26272c",
             "overlay": true,
-            "overlayColor": "#3C3C3C",
+            "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/logomakr-2l8v0h-1-265x117.png",
-              "width": 265,
-              "active": true,
-              "link": "index.html",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "text1": "<b>Address<br>\n5350 Dunlay Drive 2316<br>\nSacramento, CA 95835</b>",
-          "text2": "<strong>Contacts</strong><br>\nEmail: secerbeg@gmail.com<br>\nPhone: +1 (916) 712 8244<br>",
-          "text3": "<p><strong>Links</strong></p><p></p><ul><li>Java Blog</li><li>Rasberry Pi</li><li>Java Certification</li></ul><p></p>",
+          "text": "Copyright (c) 2015 Company Name. <a href=\"https://mobirise.com/\">Terms of Use</a>  | <a href=\"https://mobirise.com/\">Privacy Policy</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-8",
-          "_styles": {
-            "UL": {
-              "color": "#000000"
-            },
-            "STRONG": {
-              "color": "#000000"
-            },
-            "P": {
-              "color": "#000000"
-            }
-          }
+          "_name": "footer1",
+          "_anchor": "footer1-m"
         }
       ]
     },
