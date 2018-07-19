@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Mirza Secerbegovic",
-    "currentPage": "index.html",
+    "currentPage": "privacy.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -41,8 +41,8 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "showButtons": true,
-            "sticky": true,
+            "showButtons": false,
+            "sticky": false,
             "collapsed": true,
             "transparent": true,
             "color": "#d3dae7",
@@ -312,8 +312,8 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "showButtons": true,
-            "sticky": true,
+            "showButtons": false,
+            "sticky": false,
             "collapsed": true,
             "transparent": true,
             "color": "#d3dae7",
@@ -328,8 +328,7 @@
               "height": 128,
               "alt": "I'm Mirza Secerbegovic",
               "link": "http://secerbeg.github.io",
-              "title": "I'm Mirza Secerbegovic",
-              "linkInNewWindow": false
+              "title": "I'm Mirza Secerbegovic"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -343,59 +342,10 @@
             "Theme"
           ],
           "_name": "menu",
+          "_anchor": "menu-0",
           "_styles": {
             ".navbar-toggler": {
               "color": "#abdbf2"
-            }
-          },
-          "_anchor": "menu-c"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#c8eeec",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/logomakr-2l8v0h-1-265x117.png",
-              "width": 265,
-              "active": true,
-              "link": "index.html",
-              "alt": "",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "text1": "<b>Address<br>\n5350 Dunlay Drive 2316<br>\nSacramento, CA 95835</b>",
-          "text2": "<strong>Contacts</strong><br>\nEmail: secerbeg@gmail.com<br>\nPhone: +1 (916) 712 8244<br>",
-          "text3": "<p><strong>Links</strong></p><p></p><ul><li>Java Blog</li><li>Rasberry Pi</li><li>Java Certification</li></ul><p></p>",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-d",
-          "_styles": {
-            "UL": {
-              "color": "#000000"
-            },
-            "STRONG": {
-              "color": "#000000"
-            },
-            "P": {
-              "color": "#000000"
             }
           }
         },
