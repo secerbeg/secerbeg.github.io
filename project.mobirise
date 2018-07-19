@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Mirza Secerbegovic",
-    "currentPage": "privacy.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -42,7 +42,7 @@
             "logo": true,
             "showBrand": true,
             "showButtons": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": true,
             "transparent": true,
             "color": "#d3dae7",
@@ -283,7 +283,7 @@
             "logo": true,
             "showBrand": true,
             "showButtons": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": true,
             "transparent": true,
             "color": "#d3dae7",
