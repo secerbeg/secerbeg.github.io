@@ -7,17 +7,18 @@
       "title": "PurityM",
       "styling": {},
       "additionalSetColors": [
-        "#7ca5b9"
+        "#7ca5b9",
+        "#1c94b7"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 26,
+    "uniqCompNum": 27,
     "versionPublish": "4.8.1",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
-    "siteUrl": "http://mirzasecerbegovic.com",
+    "siteUrl": "https://secerbeg.github.io/",
     "sitemapSwitcherAuto": "on",
     "favicon": "",
     "noImageResize": "",
@@ -39,21 +40,21 @@
       "components": [
         {
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": true,
-            "showButtons": false,
-            "sticky": false,
+            "showButtons": true,
+            "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "color": "#d3dae7",
-            "hamburgerColor": "#abdbf2"
+            "color": "#f1c050",
+            "hamburgerColor": "#ffffff"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#header1-1\">Home</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#header2-5\">&nbsp;About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#testimonials1-7\">&nbsp; Interest</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#testimonials1-7\"></a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#msg-box3-6\">Skills</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#contacts1-8\">&nbsp; &nbsp;Contact</a></li>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"http://secerbeg.github.io\">Download Resume</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-warning-outline btn-warning\" data-app-selector=\".nav-item .btn\" href=\"http://secerbeg.github.io\">Download Resume</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logomakr-2l8v0h-289x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logomakr-2l8v0h-2-289x128.png",
               "height": 128,
               "alt": "I'm Mirza Secerbegovic",
               "link": "http://secerbeg.github.io",
@@ -65,7 +66,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MIrza Secerbegovic</a>",
+          "brand": "<a class=\"navbar-brand text-warning\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Mirza Secerbegovic</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -74,19 +75,25 @@
           "_anchor": "menu-0",
           "_styles": {
             ".navbar-toggler": {
-              "color": "#abdbf2"
+              "color": "#ffffff"
+            },
+            ".navbar-brand": {
+              "font-size": "30px"
+            },
+            ".nav-link": {
+              "font-size": "16px"
             }
           }
         },
         {
           "_params": {
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": false,
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1237.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff8e0",
@@ -98,8 +105,8 @@
             "overlayColor": "#ffffff",
             "overlayOpacity": 0.5
           },
-          "title": "Hello, I am<br>- Mirza Secerbegovic -",
-          "text": "",
+          "title": "<br><br><br><b>Hello, I am<br>- Mirza Secerbegovic -</b><div><br></div>",
+          "text": "<i>I am a software engineer with twelve years of experience. I am an expert in architecting, developing, deploying, and maintaining web-based business and consumer applications.<br><br>&nbsp; &nbsp;As sole developer and member of small and large development teams, I have designed numerous applications from concept to production, with knowledge in all necessary technical areas from the user interface to the back-end. I have contributed sophisticated functionality to existing applications.</i>",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>",
           "alias": "purity/components",
           "_tags": [
@@ -113,9 +120,21 @@
               "font-size": "30px"
             },
             "P": {
-              "font-size": "60px",
-              "font-family": "'Open Sans Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
+              "font-size": "20px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "text-align": "left",
+              "color": "#000000"
+            },
+            "B": {
+              "color": "#f1c050",
+              "font-size": "46px"
+            },
+            "I": {
+              "color": "#000000",
+              "font-size": "20px",
+              "font-family": "'Playfair Display', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic"
             }
           }
         },
@@ -128,7 +147,7 @@
             "showArrow": false,
             "contentAlign": "right",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-1.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -280,21 +299,21 @@
       "components": [
         {
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": true,
-            "showButtons": false,
-            "sticky": false,
+            "showButtons": true,
+            "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "color": "#d3dae7",
-            "hamburgerColor": "#abdbf2"
+            "color": "#f1c050",
+            "hamburgerColor": "#ffffff"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#header1-1\">Home</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#header2-5\">&nbsp;About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#testimonials1-7\">&nbsp; Interest</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#testimonials1-7\"></a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#msg-box3-6\">Skills</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#contacts1-8\">&nbsp; &nbsp;Contact</a></li>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"http://secerbeg.github.io\">Download Resume</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-warning-outline btn-warning\" data-app-selector=\".nav-item .btn\" href=\"http://secerbeg.github.io\">Download Resume</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logomakr-2l8v0h-289x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logomakr-2l8v0h-2-289x128.png",
               "height": 128,
               "alt": "I'm Mirza Secerbegovic",
               "link": "http://secerbeg.github.io",
@@ -306,7 +325,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MIrza Secerbegovic</a>",
+          "brand": "<a class=\"navbar-brand text-warning\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Mirza Secerbegovic</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -314,7 +333,13 @@
           "_name": "menu",
           "_styles": {
             ".navbar-toggler": {
-              "color": "#abdbf2"
+              "color": "#ffffff"
+            },
+            ".navbar-brand": {
+              "font-size": "30px"
+            },
+            ".nav-link": {
+              "font-size": "16px"
             }
           },
           "_anchor": "menu-n"
