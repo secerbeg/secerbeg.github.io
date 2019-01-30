@@ -44,39 +44,3 @@
 #menu-n .nav-link {
   font-size: 16px;
 }
-
-
-#menu-r .navbar-toggler {
-  color: #ffffff;
-}
-#menu-r .navbar-brand {
-  font-size: 30px;
-}
-#menu-r .nav-link {
-  font-size: 16px;
-}
-#header1-s H1 {
-  text-align: center;
-  font-size: 30px;
-}
-#header1-s P {
-  font-size: 20px;
-  font-family: 'Playfair Display', sans-serif;
-  text-align: left;
-  color: #000000;
-}
-#header1-s B {
-  color: #f1c050;
-  font-size: 46px;
-}
-#header1-s I {
-  color: #000000;
-  font-size: 20px;
-  font-family: 'Playfair Display', sans-serif;
-}
-#msg-box3-v .mbr-header .mbr-header__text {
-  text-align: center;
-}
-#msg-box3-v .mbr-header .mbr-header__subtext {
-  text-align: center;
-}
