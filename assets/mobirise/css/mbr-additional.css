@@ -1,16 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic);
 
- ul#navlist li a
-            {
-            float: left;
-            width: 5em;
-            color: #fff;
-            background-color: #036;
-            padding: 0.2em 1em;
-            text-decoration: none;
-            border-right: 1px solid #fff;
-            }
-
 #menu-0 .navbar-toggler {
   color: #ffffff;
 }
